@@ -17,7 +17,9 @@ pip install scapy
 pip install bandit
 pip install black
 pip install pylint
-3. **To run these on your code directory, navigate to your project folder and execute,**
+
+3. **Usage**
+To run these on your code directory, navigate to your project folder and execute**
 for example,
  ```bash
  bandit -r /path/to/your/code/
