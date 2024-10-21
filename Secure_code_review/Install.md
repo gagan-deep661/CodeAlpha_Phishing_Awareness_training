@@ -12,10 +12,13 @@ Ensure that you have administrative privileges on your machine to install softwa
    sudo apt update
    sudo apt install python3 python3-pip
 2. **Install Scapy, bandit,black and pylint**
+ ```bash
 pip install scapy
 pip install bandit
 pip install black
 pip install pylint
 3. **To run these on your code directory, navigate to your project folder and execute,**
-for example, bandit -r /path/to/your/code/
+for example,
+ ```bash
+ bandit -r /path/to/your/code/
 Replace /path/to/your/code/ with the actual path to your Python files.
