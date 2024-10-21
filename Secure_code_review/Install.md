@@ -11,16 +11,13 @@ Ensure that you have administrative privileges on your machine to install softwa
    ```bash
    sudo apt update
    sudo apt install python3 python3-pip
-2. **Install Scapy, bandit,black and pylint**
+2. **Install Scapy, bandit,black and pylint and run to review the code**
  ```bash
 pip install scapy
 pip install bandit
 pip install black
 pip install pylint
+black /path/to/your/code.py
+pylint /path/to/your/code.py
 
-3. **Usage**
-To run these on your code directory, navigate to your project folder and execute**
-for example,
- ```bash
- bandit -r /path/to/your/code/
-Replace /path/to/your/code/ with the actual path to your Python files.
+Ensure that you replace /path/to/your/code.py with the actual path to the specific Python file you want to analyze or format.
