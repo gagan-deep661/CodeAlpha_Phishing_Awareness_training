@@ -9,7 +9,8 @@ This folder contains a presentation designed to educate users about phishing att
 ## 2. Network Sniffer
 
 This folder contains a basic network sniffer built in Python using the Scapy library. It captures and analyzes network packets, providing information like source IP, destination IP, and protocols (TCP/UDP).
-Features - Captures and displays real-time network packets.
+Features
+- Captures and displays real-time network packets.
 - Filters packets by protocol (TCP, UDP, etc.).
 
 ## 3. Secure Code Review
